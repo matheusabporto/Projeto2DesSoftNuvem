@@ -3,12 +3,12 @@ const app = express();
 
 // Rota 1 - Página principal
 app.get("/", function(req, res) {
-    res.send("<h1>Bem-vindo ao site do Matheus!</h1><p>Navegue pelas rotas: /sobre e /contato para mais informações</p>");
+    res.send("<h1>Bem-vindo ao site do projeto 2 do Matheus!</h1><p>Navegue pelas rotas: /projeto2 e /contato para mais informações</p>");
 });
 
 // Rota 2 - Sobre
-app.get("/sobre", function(req, res) {
-    res.send("<h1>Sobre</h1><p>Aplicação Node.js desenvolvida para a disciplina de Desenvolvimento de Software em Nuvem - Unifor.</p>");
+app.get("/projeto2", function(req, res) {
+    res.send("<h1>Sobre</h1><p>Segundo projeto desenvolvido para a disciplina de Desenvolvimento de Software em Nuvem - Unifor.</p>");
 });
 
 // Rota 3 - Contato
