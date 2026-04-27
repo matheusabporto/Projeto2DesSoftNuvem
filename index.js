@@ -3,7 +3,7 @@ const app = express();
 
 // Rota 1 - Página principal
 app.get("/", function(req, res) {
-    res.send("<h1>Bem-vindo ao site do projeto 2 do Matheus!</h1><p>Navegue pelas rotas: /projeto2 e /contato para mais informações</p>");
+    res.send("<h1>Bem-vindo ao site do projeto 2 do Matheus Albuquerque!</h1><p>Navegue pelas rotas: /projeto2 e /contato para mais informações</p>");
 });
 
 // Rota 2 - Sobre
