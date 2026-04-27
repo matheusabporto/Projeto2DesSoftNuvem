@@ -3,7 +3,7 @@ const app = express();
 
 // Rota 1 - Página principal
 app.get("/", function(req, res) {
-    res.send("<h1>Bem-vindo ao meu site!</h1><p>Navegue pelas rotas: /sobre e /contato</p>");
+    res.send("<h1>Bem-vindo ao site do Matheus!</h1><p>Navegue pelas rotas: /sobre e /contato para mais informações</p>");
 });
 
 // Rota 2 - Sobre
@@ -13,7 +13,7 @@ app.get("/sobre", function(req, res) {
 
 // Rota 3 - Contato
 app.get("/contato", function(req, res) {
-    res.send("<h1>Contato</h1><p>Entre em contato pelo e-mail: aluno@unifor.br</p>");
+    res.send("<h1>Contato</h1><p>Entre em contato pelo e-mail: matheusabporto@gmail.com</p>");
 });
 
 app.listen(3000, function(erro) {
