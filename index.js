@@ -16,10 +16,12 @@ app.get("/contato", function(req, res) {
     res.send("<h1>Contato</h1><p>Entre em contato pelo e-mail: matheusabporto@gmail.com</p>");
 });
 
-app.listen(3000, function(erro) {
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, function(erro) {
     if (erro) {
         console.log("Erro ao iniciar.");
     } else {
-        console.log("Servidor Iniciado.");
+        console.log("Servidor rodando na porta " + PORT);
     }
 });
